@@ -1,0 +1,212 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.surrounding {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.wholebody {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.headings {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+}
+
+.headings h1 {
+    padding: 10px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* headlinks doesnt do anything as of yet, check this whole  section
+out later */
+
+.headlinks {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 12px;
+    margin-right: 99%;
+    white-space: nowrap;
+}
+
+
+.headlinks a{
+    color: white;
+    font-size: 18px;
+    flex: 1;
+}
+
+.headings h1 {
+    margin-left: 10%;
+}
+
+.upperbody {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    padding-top: 100px;
+    
+}
+
+.upperbody button {
+    border-style: none;
+}
+
+.upperbody h1 {
+    font-size: 48px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.upperbody p {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.upperbody img {
+    margin-right: 10%;
+
+}
+.upperfirstpart {
+    margin-left: 10%;
+}
+
+.middlebody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middlebody h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.midimages {
+    display: flex;
+    gap: 24px;
+    justify-content: space-evenly;
+}
+
+.midcombo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-wrap: break-word;
+    width: 150px;
+    height: auto;
+}
+
+.midcombo img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.aftermidbody {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all; 
+    padding: 16px;
+}
+
+.aftermidbody p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+
+
+#quotesource {
+    font-size: 20px;
+    font-style: normal;
+    align-self: flex-end;
+}
+
+.lastbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    width: 50%;
+    align-self: center;
+    margin-top: 3%;
+    padding: 32px;
+    border-radius: 8px;
+
+}
+
+.lastbody h2 {
+    margin: 0px;
+    padding: 2px;
+    justify-self: center;
+    align-self: center;
+}
+
+.lastbody p {
+    padding: 0px;
+    margin: 0 2px;
+}
+
+.lastbodytext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.lastbody button {
+    justify-self: flex-end;
+    margin-right: 10%;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+    border-color: white;
+}
+
+.footings {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
