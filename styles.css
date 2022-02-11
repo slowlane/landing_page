@@ -10,12 +10,6 @@ html, body {
     padding: 0px;
 }
 
-.wholebody {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-}
-
 .headings {
     display: flex;
     background-color: #1F2937;
