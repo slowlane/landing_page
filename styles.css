@@ -62,7 +62,7 @@ out later */
     color: white;
     padding: 20px;
     padding-top: 100px;
-    
+    margin-bottom: 50px;
 }
 
 .upperbody button {
@@ -100,28 +100,41 @@ out later */
 .middlebody h2 {
     font-size: 36px;
     font-weight: 900;
+    padding: 0px;
+    margin: 0px;
 }
 
 .midimages {
     display: flex;
     gap: 24px;
     justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
 }
 
 .midcombo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     overflow-wrap: break-word;
-    width: 150px;
+    width: 25%;
     height: auto;
+    margin-bottom: 50px;
 }
 
 .midcombo img {
-    max-width: 100px;
+    max-width: 150px;
     max-height: auto;
+    padding: 0px;
+    margin: 0px;
 }
+
+.midcombo p {
+    margin: 0px;
+    padding: 0px;
+}
+
 
 .aftermidbody {
     background-color: #E5E7EB;
