@@ -56,6 +56,7 @@ out later */
     color: white;
     padding: 20px;
     padding-top: 100px;
+    padding-bottom: 100px;
     margin-bottom: 50px;
 }
 
@@ -170,6 +171,7 @@ out later */
     font-size: 20px;
     font-style: normal;
     align-self: flex-end;
+    font-weight: 800;
 }
 
 .lastbody {
